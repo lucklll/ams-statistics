@@ -5,18 +5,23 @@ ludata <- read_csv("C:/Users/kubelova/Desktop/A1 IK Kosetice/Chemical compositio
 str(ludata)
 
 listcol<-colnames(ludata[,2:ncol(ludata)])
+
 df1<-as.data.frame(listcol)
 
 
 
 a<-vector()
 a<-as.numeric(a)
+
 ma<-vector()
 ma<-as.numeric(ma)
+
 mi<-vector()
 mi<-as.numeric(mi)
+
 me<-vector()
 me<-as.numeric(me)
+
 std<-vector()
 std<-as.numeric(std)
 
